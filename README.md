@@ -1,6 +1,8 @@
 # SLDB
 
-## SLDB - string lightweight database. This db is oriented to work with SLQL: https://github.com/ZikkeyLS/SLQL
+SLDB - string lightweight database. 
+
+This db is oriented to work with SLQL: https://github.com/ZikkeyLS/SLQL
 
 ## Example:
 
