@@ -9,9 +9,9 @@ This db is oriented to work with SLQL: https://github.com/ZikkeyLS/SLQL
 ```
 TEST1
 user_token(U) | user_name(U, Min(4), Max(16)) | user_password(Min(6), Max(20))
-------------------------------------------------------------------------------
-0             | "Test"                        | "Password"
-1             | "Test2"                       | "Password1"
+
+0 | "Test" | "Password"
+1 | "Test2" | "Password1"
 ```
 
 ## Description:
@@ -26,4 +26,4 @@ user_token(U) | user_name(U, Min(4), Max(16)) | user_password(Min(6), Max(20))
   
   Third line is horizontal separator line between config and table elements.
   
-  Fourth+ line - table elements. First parameter is always number(indicates connectable token). Second+ parameter is a string value.
+  Fourth+ line - table elements with independent value types.
