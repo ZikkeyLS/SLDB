@@ -9,7 +9,7 @@ This db is oriented to work with SLQL: https://github.com/ZikkeyLS/SLQL
 ```
 TEST1
 user_token(U) | user_name(U, Min(4), Max(16)) | user_password(Min(6), Max(20))
-
+------------------------------------------------------------------------------
 0 | "Test" | "Password"
 1 | "Test2" | "Password1"
 ```
